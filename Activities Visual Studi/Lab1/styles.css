@@ -1,0 +1,65 @@
+html, body {  
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}  
+
+body {  
+    background-image: url('background.gif');
+    background-size: cover;
+    background-position: center; 
+    font-family: Arial, sans-serif;  
+    color: black;  
+}  
+
+.container {  
+    border: 5px solid rgb(133, 124, 124);  
+    border-radius: 10px;  
+    padding: 20px;  
+    background-color: rgba(244, 244, 244, 0.9); 
+    max-width: 600px;  
+    margin: 0 auto; 
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+}  
+
+.title {  
+    font-size: 28px;  
+    color: rgb(0, 0, 0);  
+    margin: 0;  
+    text-align: center;  
+}  
+
+.volume {  
+    font-size: 20px;  
+    color: black;  
+    margin: 0;  
+    text-align: center;  
+}  
+
+.song-list {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+.song-list li {  
+    margin: 10px 0;  
+    font-size: 16px;  
+    text-align: center;  
+}
+
+.socials {  
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}  
+
+.social-icon {  
+    margin: 0 15px;
+}  
+
+.social-icon img {  
+    width: 40px; 
+    height: 40px;
+}
