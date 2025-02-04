@@ -1,0 +1,42 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 20px;  
+    background-color: #f9f9f9; /* Light background for contrast */  
+    color: #333; /* Dark text for readability */  
+}  
+
+h1 {  
+    font-size: 24px;  
+    margin-bottom: 20px;  
+}  
+
+.facebook-link {  
+    display: inline-block;  
+    text-decoration: none; /* Remove underline */  
+    color: #3b5998; /* Facebook color */  
+    font-weight: bold;  
+    margin: 10px 0;  
+    background-color: #fff; /* White background for contrast */  
+    border: 2px solid #3b5998; /* Border matching Facebook color */  
+    padding: 10px 15px; /* Padding for button effect */  
+    border-radius: 5px; /* Rounded corners */  
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */  
+}  
+
+.facebook-link:hover {  
+    background-color: #3b5998; /* Change background on hover */  
+    color: #fff; /* Change text color on hover */  
+}  
+
+.facebook-logo {  
+    width: 30px; /* Size of the logo */  
+    height: auto;  
+    vertical-align: middle; /* Align the logo to the middle of text */  
+    margin-right: 5px; /* Space between logo and text */  
+}  
+
+.back-to-top {  
+    text-decoration: none;  
+    color: #6a5acd; /* A different color for back to top link */  
+    font-weight: bold;  
+}
