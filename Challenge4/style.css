@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: url("anime.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main img {
+    width: 150px;
+    height: 100px;
+}
+
+.main {
+    border: 5px solid #000;
+    border-radius: 50px;
+    border-style: solid;
+    position: absolute;
+    left: 30%;
+    right: 38%;
+    top: 30%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 10px 10px 8px rgb(29, 29, 29);
+    border: 2px solid black;
+    margin: 20px;
+    padding: 3px;
+    border-radius: 5px 25px;
+    float: left;
+    text-align: center;
+    background-color: white;
+
+    
+}
+
+.container:hover {
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,0.4822303921568627) 35%, rgba(0,212,255,1) 100%);
+    transition-timing-function: ease-in-out;
+    transition: all 1s;
+    border-radius: 5px 50px;
+
+}
+
+.header {
+	background: #46b7c1;
+	padding: 6px;
+}
+.header b {
+	background: #fff;
+	color: red;
+	padding:10px;
+	font-size: 20px;
+}
+.header marquee {
+	font-size:20px;
+	color: #ffffff;
+	width: 80%;
+}
+
